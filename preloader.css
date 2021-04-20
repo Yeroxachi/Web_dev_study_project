@@ -1,0 +1,71 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#preloader-block
+{
+    width: 100vw;
+    height: 100vh;
+    background: #1e1e1e;
+    position: fixed;
+    z-index: 999999;
+    transition: 0.5s;
+}
+
+#line1
+{
+    height: 100px;
+    width: 20px;
+    background: red;
+    float: left;
+    margin-left: calc(50vw - 30px);
+    margin-top: calc(50vh - 50px);
+    animation: load 0.5s infinite linear alternate;
+}
+
+#line2
+{
+    height: 100px;
+    width: 20px;
+    background: red;
+    float: left;
+    margin-left: 20px;
+    margin-top: calc(50vh - 50px);
+    animation: load 1s infinite linear alternate;
+}
+
+#line3
+{
+    height: 100px;
+    width: 20px;
+    background: red;
+    float: left;
+    margin-left: 20px;
+    margin-top: calc(50vh - 50px);
+    animation: load 1.5s infinite linear alternate;
+}
+
+@keyframes load
+{
+    from
+    {
+        height: 100px;
+        width: 20px;
+    }
+
+    50%
+    {
+        height: 150px;
+        width: 20px;
+        margin-top: calc(50vh - 75px);
+    }
+
+    to
+    {
+        height: 200px;
+        width: 20px;
+        margin-top: calc(50vh - 100px);
+    }
+}

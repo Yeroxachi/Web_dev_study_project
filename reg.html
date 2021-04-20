@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reg.css">
+    
+</head>
+<body>
+    <center><button class="regbutton"></button></center>
+    <center><button class="regbutton"></button></center>
+    <div id="gray"></div>
+    <div id="Reg">
+        <div class="form">
+            <img id="xicon" src="img\x.png"alt="X">
+            <center><h2>Регистрация</h2></center>
+            <input type="text" required placeholder="First name" name="name" class="input field" id="first-name">
+            <input type="text" required placeholder="Second name" name="name1" class="input field" id="last-name">
+            <input type="email" name="mail" required placeholder="Your email adress" class="input field" id="mail">
+            <input type="email" name="mail1" required placeholder="Check your email adress" class="input field" id="mail-check">
+            <input type="password" name="password" required placeholder="Password" class="input field" id="password">
+            <input type="password" name="password1" required placeholder="Password check" class="input field" id="password-check">
+            <input type="radio" required name="gender" class="radio field" id="male">Male
+            <input type="radio" required name="gender" class="radio field" id="female">Female
+            <input type="date" name="data" class="input field" id="date" required>
+            <input type="checkbox" name="checkbox" class="radio" id="robot" required> Allahu, i'm not a robot 
+            <p>Нажав кнопку регистраций вы соглашаетесь на что то. Но у нас нету ничего чтобы использовать ваши данные.</p>
+            <center><input class="button" type="submit">Submit all and give cvc code</input></center>
+
+        </div>
+    </div>
+    <div id="forma">
+        <img id="xicon1" src="img\x.png"alt="X">
+        <center><h2>Войти</h2></center>
+        <input type="text" placeholder="email" name="check mail" class="input field">
+        <input type="password" placeholder="password" name="check pasword" class="input field">
+        <center><input class="button" type="submit">Enter</input></center>
+
+    </div>
+    <script src="reg.js"></script>
+</body>
+</html>

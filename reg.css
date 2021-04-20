@@ -1,0 +1,111 @@
+.form
+{ 
+    background-color: #A9D0F5;
+    border: 4px solid black;
+    border-radius: 8px;
+    margin: 0% 17.5%;
+    padding: 0% 5% 0% 5%;
+    display: none;
+    z-index: 999999;
+    position: absolute;
+    width: 60%;
+}
+.input
+{
+    width: 90%;
+    margin-bottom: 1%;
+    height: 30px;
+    padding: 10px;
+}
+.radio
+{
+    margin-bottom: 7%;
+}
+
+.button
+{
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #01A9DB;
+    margin: 5% 0 5% 0;
+    text-align: center;
+}
+#xicon
+{    position: relative;
+    width: 3%;
+    margin: 5% 10% 0% 99%;
+}
+#xicon:hover
+{
+    width: 5%;
+    transition: 0.3s;
+    margin: 3% 10% 0% 99%;
+}
+.regbutton
+{position: relative;
+z-index: 1;
+ background-color: #BDBDBD;
+ width: 100px;
+ height: 27px;
+ border-style: solid;
+ border: 1px solid #BDBDBD;
+ font-size: 15px;
+ border-radius: 5px;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ text-align: center;
+ text-transform: uppercase;
+}
+.regbutton:active
+{
+    border-radius: 8px;
+    border-color: linen;
+    outline: none;
+}
+button:focus
+{
+    outline: none;
+}
+.input:focus
+{
+    outline: none;
+}
+#gray
+{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999998;
+    display: none;
+}
+#forma
+{
+    background-color: #A9D0F5;
+    border: 4px solid black;
+    border-radius: 8px;
+    margin: 0% 30% 0%  30%;
+    padding: 0% 5% 0% 5%;
+    display: none;
+    z-index: 999999;
+    position: absolute;
+}
+#xicon1
+{
+    position: relative;
+    width: 3%;
+    margin: 5% 10% 0% 99%;
+}
+#xicon1:hover
+{   
+    width: 5%;
+    transition: 0.3s;
+    margin: 3% 10% 0% 99%;
+}
+
+.comment
+{
+    color: black;
+    font-size: 18px;
+}
